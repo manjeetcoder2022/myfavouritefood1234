@@ -1,0 +1,118 @@
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 10;
+    right: 40px;
+    cursor: pointer;
+}
+.menu li{
+    float: left;
+    margin: 15px;
+    background-color: aqua;
+    padding: 5px;
+}
+li a {
+    text-decoration: none;
+    font-size: 18px;
+}
+li a:hover{
+    font-size: 20px;
+}
+#home{
+    padding-top:150px;
+    padding-bottom: 20px;
+   background-image: url("banner-image.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   height: 500px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 55px;
+    text-align: center;
+    color:lawngreen;
+}
+h4{
+    font-size: 22px;
+    text-align: center;
+    color: rgb(169, 224, 16);
+}
+h5{
+    margin-top: 225px;
+    font-size: 18px;
+    color: rgb(4, 155, 255);
+    text-align: center;
+}
+.row{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(255, 230, 0);
+    
+}
+.card{
+    box-shadow: 08px 8px 8px rgba(147,78,14);
+    transition: 1.3s;
+    text-align: center;
+}
+.card:hover{
+    box-shadow: 8px 8px 4px rgba(147,78,14);
+    transition:2.5s
+}
+.card img{
+    width: 250px;
+    height: 250px;
+}
+.card h3{
+    font-size: 18px;
+    text-align: center;
+}
+ .card a{
+    text-decoration: none;
+    font-size: 16px;
+    color:slateblue;
+}
+#burger{
+    background-color: darksalmon;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#about iframe{
+    text-align: center;
+    width: 50%;
+  margin-left: 25%;
+}
+#chowmin{
+    background-color: cornflowerblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#contact{
+    background-color: grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#contact iframe{
+    width: 50%;
+}
+#contact h3 {
+text-decoration: none;
+display: inline;
+
+}
+i{
+    color: brown;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-family: sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
